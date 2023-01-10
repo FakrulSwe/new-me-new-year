@@ -1,0 +1,118 @@
+/* Header style */
+.main-header {
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+}
+
+.main-header .banner {
+    padding: 216px 80px 180px 845px;
+    text-align: right;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.banner input[type="submit"] {
+    padding: 10px 25px;
+    color: #005FAC;
+    font-size: medium;
+}
+
+/* Main Style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.all-failure {
+    display: flex;
+    margin-top: 131px;
+    gap: 87px;
+}
+
+.failure-status {
+    padding-top: 270px;
+    padding-right: 122px;
+    color: #444343;
+}
+
+/* Plans Style */
+.plan-section {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.plans {
+    display: flex;
+    gap: 86px;
+    padding: 50px 200px;
+}
+
+/* Mindset style */
+.mindset-section {
+    max-width: 1140px 300px;
+    margin: 0 auto;
+}
+
+.mindset {
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    /* margin: 130px 230px; */
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.mindset-status {
+    padding: 59px 617px 59px 64px;
+    font-size: 30px;
+}
+
+.mindset-status input[type="submit"] {
+    padding: 16px 32px;
+    font-size: 21px;
+    color: #005FAC;
+}
+
+/* Footer Style */
+.footer {
+    background-size: cover;
+    background-color: #151414;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.future {
+    padding: 130px 125px;
+}
+
+.contact a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.subscribe {
+    padding: 130px 125px;
+    font-size: 25px;
+}
+
+.subscribe input[type="email"] {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 20px 10px 1px;
+    border-color:#FFFFFF;
+    border-radius: 5px;
+}
+
+.subscribe input[type="submit"] {
+    background: #005FAC;
+    border-radius: 8px;
+    font-size: medium;
+    color: #FFFFFF;
+    padding: 20px 36px;
+    margin-top: 20px;
+
+}
